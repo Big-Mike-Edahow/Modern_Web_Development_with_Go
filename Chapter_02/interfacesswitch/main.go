@@ -1,3 +1,5 @@
+// main.go
+
 package main
 
 import "fmt"
@@ -34,10 +36,10 @@ func main() {
 
 	switch g.(type) {
 	case Square:
-		fmt.Printf("Square")
+		fmt.Printf("Square\n")
 	case Rectangle:
-		fmt.Printf("Rectangle")
+		fmt.Printf("Rectangle\n")
 	default:
-		fmt.Printf("Unknown type")
+		fmt.Printf("Unknown type\n")
 	}
 }

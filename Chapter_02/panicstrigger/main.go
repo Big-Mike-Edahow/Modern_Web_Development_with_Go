@@ -1,3 +1,5 @@
+// main.go
+
 package main
 
 func checkName(name string) {
